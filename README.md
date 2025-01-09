@@ -145,6 +145,3 @@ Feedstock Maintainers
 
 * [@fxcoudert](https://github.com/fxcoudert/)
 
-
-<!-- dummy commit to enable rerendering -->
-
