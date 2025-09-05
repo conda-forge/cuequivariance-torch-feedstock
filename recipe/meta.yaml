@@ -1,5 +1,5 @@
 {% set name = "cuequivariance-torch" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/NVIDIA/cuEquivariance/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8ae9a710cb8afd8ba4c72a46dfa174de2430584a6fb60f24d9b079956914b38c
+  sha256: c8c3ccf57ff6daf806dfa12d414242cd89135d2ea864d6ef7dbc434f5f992f7a
 
 build:
   noarch: python
