@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: cuequivariance-torch
-  version: "0.11.1"
+  version: "0.12.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/NVIDIA/cuEquivariance/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: fd60fbf4d3c2a6208f4a1bbe3b6dc216a18ceff410706e0db665c314cc1a1937
+  sha256: d9bed3013eef97cdf987a392cc7047e87e784f15bc9e87793187f041e0edd886
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install ./cuequivariance_torch -vv --no-deps --no-build-isolation
 
